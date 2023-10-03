@@ -13,14 +13,15 @@ export default function Footer() {
               <Link legacyBehavior href="/nosotros">
                 Nosotros
               </Link>
+              
+              <Link legacyBehavior href="/tienda">
+                Tienda
+              </Link>
 
               <Link legacyBehavior href="/blog">
                 Blog
               </Link>
 
-              <Link legacyBehavior href="/tienda">
-                Tienda
-              </Link>
             </nav>
 
             <p className={styles.copyrigth}>Todos los derechos Reservado { new Date().getFullYear()}</p>

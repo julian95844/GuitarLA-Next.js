@@ -27,6 +27,12 @@ export default function Header() {
               Nosotros
             </a>
           </Link>
+          
+          <Link legacyBehavior href="/tienda">
+            <a className={ router.pathname === "/tienda" ? styles.active : ""}>
+              Tienda
+            </a>
+          </Link>
 
           <Link legacyBehavior href="/blog">
             <a className={ router.pathname === "/blog" ? styles.active : ""}>
@@ -34,11 +40,6 @@ export default function Header() {
             </a>
           </Link>
 
-          <Link legacyBehavior href="/tienda">
-            <a className={ router.pathname === "/tienda" ? styles.active : ""}>
-              Tienda
-            </a>
-          </Link>
         </nav>
       </div>
     </header>
